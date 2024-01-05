@@ -1,11 +1,11 @@
 {
   "s3": {
     "stage": {
-      "bucket": "stage-apps.npr.org",
+      "bucket": "stage.nick-underwood.com",
       "path": "{%= app_name %}"
     },
     "live": {
-      "bucket": "apps.npr.org",
+      "bucket": "apps.nick-underwood.com",
       "path": "{%= app_name %}"
     }
   },
